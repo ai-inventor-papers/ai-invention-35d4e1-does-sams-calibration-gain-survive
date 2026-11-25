@@ -1,0 +1,8 @@
+{
+ "original_test_acc": 0.9312,
+ "rerun_test_acc": 0.9312,
+ "abs_difference_pp": 0.0,
+ "exact_match": true,
+ "within_0.1pp": true,
+ "device": "mps"
+}

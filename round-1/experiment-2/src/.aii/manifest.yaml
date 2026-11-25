@@ -1,0 +1,9 @@
+entries:
+  - path: checkpoints/
+    keep: 25 small trained state_dicts (about 14 MB) from the tuning, final and reproducibility runs; retraining costs about 80 minutes of shared GPU time
+  - path: data/
+    delete: redownloadable
+    source: "uv run python -c \"from torchvision import datasets; datasets.FashionMNIST('data', train=True, download=True); datasets.FashionMNIST('data', train=False, download=True)\""
+  - path: .venv/
+    delete: regenerable
+    source: "uv venv .venv --python=3.12 && uv pip install --python .venv/bin/python torch torchvision numpy scipy loguru psutil matplotlib jsonschema"

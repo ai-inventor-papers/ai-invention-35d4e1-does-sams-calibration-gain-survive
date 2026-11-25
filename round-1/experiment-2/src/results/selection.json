@@ -1,0 +1,26 @@
+{
+ "sgd30": {
+  "tag": "tune_sgd30_lr0.05",
+  "lr": 0.05,
+  "rho": null,
+  "epochs": 30,
+  "val_nll": 0.18343135874614216,
+  "val_acc": 0.9316
+ },
+ "sam30": {
+  "tag": "tune_sam30_lr0.05_rho0.02",
+  "lr": 0.05,
+  "rho": 0.02,
+  "epochs": 30,
+  "val_nll": 0.18042802464244218,
+  "val_acc": 0.9366
+ },
+ "sgd60": {
+  "tag": "tune_sgd60_lr0.05",
+  "lr": 0.05,
+  "rho": null,
+  "epochs": 60,
+  "val_nll": 0.17716819190355776,
+  "val_acc": 0.9364
+ }
+}

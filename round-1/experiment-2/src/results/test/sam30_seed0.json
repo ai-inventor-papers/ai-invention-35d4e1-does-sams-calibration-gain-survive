@@ -1,0 +1,19 @@
+{
+ "name": "sam30_seed0",
+ "tag": "tune_sam30_lr0.05_rho0.02",
+ "arm": "sam",
+ "lr": 0.05,
+ "rho": 0.02,
+ "epochs": 30,
+ "seed": 0,
+ "test_acc": 0.9274,
+ "test_nll": 0.20145555117575534,
+ "test_brier": 0.1066480993057409,
+ "final_val_acc": 0.9366,
+ "final_val_nll": 0.18042802464244218,
+ "fb_count": 25800,
+ "train_seconds": 190.2566478252411,
+ "mean_epoch_seconds": 6.34188826084137,
+ "device": "mps",
+ "correct_file": "results/test/sam30_seed0_correct.npy"
+}

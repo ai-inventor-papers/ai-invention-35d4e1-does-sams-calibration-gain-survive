@@ -1,0 +1,26 @@
+{
+ "type": "forest",
+ "null_line": 0.0,
+ "width_in": 6.5,
+ "aspect": "4:3",
+ "title": "Paired test accuracy difference (SAM 30 minus SGD)",
+ "show_title": false,
+ "xlabel": "Accuracy difference, points (3-seed mean, 95% bootstrap CI)",
+ "categories": [
+  "SAM 30 vs SGD 30",
+  "SAM 30 vs SGD 60"
+ ],
+ "series": [
+  {
+   "label": "Mean difference",
+   "values": [
+    -0.3766666666666696,
+    -0.6500000000000025
+   ],
+   "errors": [
+    0.20000000000000018,
+    0.23504166666666781
+   ]
+  }
+ ]
+}

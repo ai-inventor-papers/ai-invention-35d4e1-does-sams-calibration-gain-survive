@@ -1,0 +1,19 @@
+{
+ "name": "sgd30_seed2",
+ "tag": "final_sgd30_seed2",
+ "arm": "sgd",
+ "lr": 0.05,
+ "rho": null,
+ "epochs": 30,
+ "seed": 2,
+ "test_acc": 0.9294,
+ "test_nll": 0.2010784008254437,
+ "test_brier": 0.10483999633842118,
+ "final_val_acc": 0.9294,
+ "final_val_nll": 0.18748590089908893,
+ "fb_count": 12900,
+ "train_seconds": 156.16650009155273,
+ "mean_epoch_seconds": 5.205550003051758,
+ "device": "mps",
+ "correct_file": "results/test/sgd30_seed2_correct.npy"
+}

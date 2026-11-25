@@ -1,0 +1,11 @@
+arm accs (%):
+  sam30 [92.74, 92.66, 92.53]
+  sgd30 [93.12, 93.0, 92.94]
+  sgd60 [93.44, 93.11, 93.33]
+d30 per seed [-0.38, -0.34, -0.41] mean -0.377 sd 0.035
+d60 per seed [-0.7, -0.45, -0.8] mean -0.650 sd 0.180
+t30=-18.577 p30=0.0029  t60=-6.245 p60=0.0247
+Holm: {'d30': 0.0058, 'd60': 0.0247}
+placebo (random sign flips of d30): fraction with |t|>=4.303 = 0.2504 (expected ~0.05 or lower)
+placebo (shuffled SAM correctness vs SGD-30): [-0.38, -0.34, -0.41] mean -0.377
+pooled d30 bootstrap 2.5/97.5 (2000 resamples, pure python): -0.577, -0.180

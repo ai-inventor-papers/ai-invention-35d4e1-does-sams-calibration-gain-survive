@@ -1,0 +1,9 @@
+entries:
+  - path: .venv/
+    delete: redownloadable
+    source: "uv venv .venv --python=3.12 && uv pip install --python .venv/bin/python torch torchvision numpy scipy scikit-learn loguru psutil matplotlib jsonschema"
+  - path: scratch/
+    delete: redownloadable
+    source: "uv run --python .venv/bin/python -c \"from torchvision import datasets; datasets.FashionMNIST(root='scratch/data', train=True, download=True); datasets.FashionMNIST(root='scratch/data', train=False, download=True)\""
+  - path: checkpoints/
+    keep: final and tuning model weights (about 1 MB each); retraining all of them costs about 1.5 h on mps

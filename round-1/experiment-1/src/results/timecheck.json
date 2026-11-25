@@ -1,0 +1,10 @@
+{
+  "t_sgd_epoch_seconds": 8.6967884579999,
+  "t_sam_epoch_seconds": 8.457700875000228,
+  "sam_to_sgd_ratio": 0.9725085203400867,
+  "threshold_t_for_N30_seconds": 14.482758620689655,
+  "N": 30,
+  "projected_main_seconds": 7566.205958459914,
+  "projected_extension_seeds_3_4_seconds": 2609.0365373999703,
+  "changed_N_from_30": false
+}

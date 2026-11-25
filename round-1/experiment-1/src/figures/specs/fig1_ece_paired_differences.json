@@ -1,0 +1,30 @@
+{
+  "type": "forest",
+  "null_line": 0.0,
+  "title": "Paired ECE differences (15 bins)",
+  "xlabel": "Difference in ECE (percentage points)",
+  "aspect": "4:3",
+  "categories": [
+    "Raw ECE, SAM minus SGD 2N",
+    "Scaled ECE, SAM minus SGD 2N",
+    "Raw ECE, SAM minus SGD N",
+    "Scaled ECE, SAM minus SGD N"
+  ],
+  "series": [
+    {
+      "label": "Mean over 5 seeds, error = 1 SD",
+      "values": [
+        -0.67,
+        -0.098,
+        -0.468,
+        -0.142
+      ],
+      "errors": [
+        0.234,
+        0.258,
+        0.103,
+        0.128
+      ]
+    }
+  ]
+}
